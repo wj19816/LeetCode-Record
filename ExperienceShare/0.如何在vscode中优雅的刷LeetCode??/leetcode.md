@@ -1,6 +1,6 @@
-# 0.如何在vscode中优雅的刷LeetCode?(mac)
+# 如何在vscode中优雅的刷LeetCode?(mac)
 
-- [0.如何在vscode中优雅的刷LeetCode?(mac)](#0如何在vscode中优雅的刷leetcodemac)
+- [如何在vscode中优雅的刷LeetCode?(mac)](#如何在vscode中优雅的刷leetcodemac)
   - [:link: 下载](#link-下载)
   - [:gear: 配置](#gear-配置)
   - [:keyboard: 使用](#keyboard-使用)
@@ -36,28 +36,47 @@
       > 这里推荐修改以下**3**个配置
 
       - **Leetcode: Default Language** 
+        
         - 可以改为自己经常使用的编程语言
-        - ![vscode修改leetcode配置-2](./pic/vscode修改leetcode配置-2.png)
+  
+            ![vscode修改leetcode配置-2](./pic/vscode修改leetcode配置-2.png)
+
       - **Leetcode: Endpoint**
+        
         - :heavy_exclamation_mark: 必须注意: 这里根据自己使用的账号修改登录站点,如果是中国站就改为`leetcode-cn`,否则会登录失败
-        - ![vscode修改leetcode默认登录站点](./pic/vscode修改leetcode默认登录站点.png)
+  
+            ![vscode修改leetcode默认登录站点](./pic/vscode修改leetcode默认登录站点.png)
+
       - **Leetcode: Workspace Folder**
         - 改为自己的代码存放路径
       
    3. 在vscode中登录leetcode账号(*最困难的一步来惹*)
+      
       1. 在左边的小地球中选择自己登录的站点
+         
          ![选择登录站点](./pic/登陆账号-1.jpg)
+
       2. 在右边的门中选择**cookie登录(:heavy_exclamation_mark:推荐!!)**
+         
          ![选择cookie登录](./pic/登陆账号-2.jpg)
+
       3. 在弹窗中输入自己的账号,然后打开[`leetcode官网`](https://leetcode.com/)
       4. 在页面的空白处点击鼠标`右键`,选择`检查`
+         
          ![选择检查](./pic/选择检查.jpg)
+
       5. 在右边的控制台中选择`网络`,在左边页面选择`problem`,右下角的模块中就会加载相关信息,点击其中的`all/`和`header`
+         
          ![选择header](./pic/选择header.jpg)
+
       6. 复制`request header`的`cookie`栏中的全部到vscode中的弹窗中
+         
          ![复制cookie](./pic/复制cookie.jpg) 
+
       7. 按`Enter`之后,耐心等待一会儿,就能看到登录成功的界面啦! :tada:
+         
          ![vscode登录成功界面](./pic/vscode登录成功界面.png)
+
 
 ## :keyboard: 使用
 

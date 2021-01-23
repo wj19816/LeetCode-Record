@@ -2,8 +2,8 @@
 
 > Do or donot, there is no try. ​​​
 
-[![language](https://img.shields.io/badge/language-python-blue.svg)]()
-[![language](https://img.shields.io/badge/language-scala-yellow.svg)]()
+![language](https://img.shields.io/badge/language-python-blue)
+![language](https://img.shields.io/badge/language-scala-yellow)
 
 [![github](https://img.shields.io/badge/Github-wj19816-black)](https://github.com/wj19816)
 [![page](https://img.shields.io/badge/个人主页-WangZiduan-green)](https://wj19816.github.io/)
